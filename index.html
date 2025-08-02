@@ -21,11 +21,16 @@
         }
 
         nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgb(18, 18, 62);
             display: flex;
             justify-content: space-around;
             align-items: center;
             height: 40px;
-            background-color: rgb(18, 18, 62);
+            padding: 5px 0;
         }
 
         nav ul {
@@ -199,11 +204,12 @@
             <div class="left">Radha's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About Me</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Certifications</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
                 </ul>
             </div>
         </nav>
